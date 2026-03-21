@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+/* ===== Premium tokens — Apex Intermediaries brand ===== */
+:root {
+  --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --surface-2: #f0eeea;
+  --surface-3: #e5e2dc;
+
+  --navy: #182A53;               /* Apex primary blue */
+  --ink: #1f2937;
+  --muted: #7D796D;              /* Apex warm gray */
+
+  --teal: #c5923a;               /* warm gold accent — derived from Apex tan/taupe */
+  --teal-light: #d4a853;
+
+  --border: rgba(24, 42, 83, 0.10);
+  --border-strong: rgba(24, 42, 83, 0.15);
+
+  --shadow-soft: 0 10px 30px rgba(24, 42, 83, 0.06);
+  --shadow: 0 18px 60px rgba(24, 42, 83, 0.10);
+  --shadow-lg: 0 25px 80px rgba(24, 42, 83, 0.14);
+
+}
+
+/* Background "taste" (subtle, enterprise-grade) */
+html, body {
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(24, 42, 83, 0.06), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(197, 146, 58, 0.04), transparent 60%),
+    var(--bg);
+  color: var(--ink);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection polish */
+::selection {
+  background: rgba(197, 146, 58, 0.22);
+}
+
+/* ===== Utility classes (Tailwind v4 friendly) ===== */
+@layer utilities {
+  .font-sans { font-family: var(--font-sans), system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  .font-display { font-family: var(--font-display), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; }
+
+  .surface { background: var(--surface); }
+  .surface-2 { background: var(--surface-2); }
+  .surface-3 { background: var(--surface-3); }
+  .hairline { border: 1px solid var(--border); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-premium { box-shadow: var(--shadow); }
+  .shadow-lg { box-shadow: var(--shadow-lg); }
+
+  /* Improved typography - larger kicker for accessibility */
+  .kicker {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .lede {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+
+  /* New: subheading for better hierarchy */
+  .subhead {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--navy);
+  }
+
+  .h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    font-weight: 650;
+  }
+
+  .h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.7rem, 2.6vw, 2.4rem);
+    line-height: 1.15;
+    letter-spacing: -0.018em;
+    font-weight: 650;
+  }
+
+  .h3 {
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+
+  .btn {
+    border-radius: 999px;
+    padding: 0.78rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: transform 180ms, box-shadow 180ms, opacity 180ms, background 180ms;
+  }
+
+  .btn-primary {
+    background: var(--navy);
+    color: white;
+    box-shadow: var(--shadow-soft);
+  }
+  .btn-primary:hover { opacity: 0.96; transform: translateY(-1px); box-shadow: var(--shadow); }
+
+  .btn-secondary {
+    background: var(--surface);
+    color: var(--navy);
+    border: 1px solid var(--border);
+  }
+  .btn-secondary:hover { background: var(--surface-2); transform: translateY(-1px); }
+
+  .link-accent {
+    color: var(--teal);
+    font-weight: 600;
+  }
+  .link-accent:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  /* Section backgrounds for visual grouping */
+  .section-alt {
+    background: var(--surface-2);
+    position: relative;
+  }
+
+  .section-alt::before,
+  .section-alt::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--border);
+  }
+  .section-alt::before { top: 0; }
+  .section-alt::after { bottom: 0; }
+
+  /* Featured card variant with accent border */
+  .card-featured {
+    border-left: 3px solid var(--teal);
+  }
+
+  /* Divider utility */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+    margin: 0 auto;
+    max-width: 200px;
+  }
+
+  /* Number badge for steps/phases */
+  .step-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--navy);
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  .step-badge-teal {
+    background: var(--teal);
+  }
+
+  /* Progress connector line */
+  .connector-line {
+    position: relative;
+  }
+  .connector-line::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 2px;
+    height: 24px;
+    background: linear-gradient(to bottom, var(--border-strong), transparent);
+    transform: translateX(-50%);
+  }
+}

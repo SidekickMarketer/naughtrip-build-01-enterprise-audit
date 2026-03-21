@@ -1,0 +1,512 @@
+{
+  "updatedAt": "2026-02-11T11:02:09.231Z",
+  "source": "Google PageSpeed API + live website signal analysis + heuristic website audit",
+  "webProperties": [
+    {
+      "name": "Apex Programs",
+      "url": "apex-programs.com",
+      "division": "Programs",
+      "performance": 51,
+      "accessibility": 82,
+      "bestPractices": 57,
+      "seo": 92,
+      "lcp_ms": 14001,
+      "cls": 0.074,
+      "tbt_ms": 331
+    },
+    {
+      "name": "Apex Exchange",
+      "url": "apex-exchange.com",
+      "division": "Programs",
+      "performance": 51,
+      "accessibility": 75,
+      "bestPractices": 77,
+      "seo": 80,
+      "lcp_ms": 19026,
+      "cls": 0.072,
+      "tbt_ms": 273
+    },
+    {
+      "name": "Apex General",
+      "url": "apex-group.com",
+      "division": "Programs",
+      "performance": 55,
+      "accessibility": 88,
+      "bestPractices": 57,
+      "seo": 85,
+      "lcp_ms": 14231,
+      "cls": 0.071,
+      "tbt_ms": 101
+    },
+    {
+      "name": "Protector Plans",
+      "url": "protector-plans.com",
+      "division": "Programs",
+      "performance": 63,
+      "accessibility": 88,
+      "bestPractices": 100,
+      "seo": 85,
+      "lcp_ms": 8918,
+      "cls": 0.072,
+      "tbt_ms": 26
+    },
+    {
+      "name": "Western Markets",
+      "url": "western-markets.com",
+      "division": "Programs",
+      "performance": 32,
+      "accessibility": 92,
+      "bestPractices": 57,
+      "seo": 92,
+      "lcp_ms": 21798,
+      "cls": 0.08,
+      "tbt_ms": 943
+    },
+    {
+      "name": "Atlas Specialty",
+      "url": "atlas-specialty.com",
+      "division": "Atlas",
+      "performance": 62,
+      "accessibility": 83,
+      "bestPractices": 77,
+      "seo": 85,
+      "lcp_ms": 19657,
+      "cls": 0.017,
+      "tbt_ms": 84
+    },
+    {
+      "name": "Summit Brokers",
+      "url": "summit-brokers.com",
+      "division": "Atlas",
+      "performance": 54,
+      "accessibility": 96,
+      "bestPractices": 69,
+      "seo": 92,
+      "lcp_ms": 16067,
+      "cls": 0.076,
+      "tbt_ms": 2
+    },
+    {
+      "name": "Summit Brokerage",
+      "url": "summit-brokerage.com",
+      "division": "Atlas",
+      "performance": 78,
+      "accessibility": 91,
+      "bestPractices": 92,
+      "seo": 57,
+      "lcp_ms": 4835,
+      "cls": 0.009,
+      "tbt_ms": 0
+    },
+    {
+      "name": "Apex Wholesale",
+      "url": "apex-wholesale.com",
+      "division": "Wholesale",
+      "performance": 53,
+      "accessibility": 87,
+      "bestPractices": 73,
+      "seo": 92,
+      "lcp_ms": 23638,
+      "cls": 0.033,
+      "tbt_ms": 163
+    },
+    {
+      "name": "Pacific Insurance Group",
+      "url": "pacific-insurance.com",
+      "division": "Wholesale",
+      "performance": 56,
+      "accessibility": 91,
+      "bestPractices": 77,
+      "seo": 85,
+      "lcp_ms": 21313,
+      "cls": 0,
+      "tbt_ms": 68
+    },
+    {
+      "name": "Apex Intermediaries",
+      "url": "apex-intermediaries.com",
+      "division": "Parent",
+      "performance": 60,
+      "accessibility": 93,
+      "bestPractices": 81,
+      "seo": 100,
+      "lcp_ms": 9274,
+      "cls": 0.022,
+      "tbt_ms": 325
+    }
+  ],
+  "propertyMarTech": [
+    {
+      "name": "Apex Programs",
+      "url": "apex-programs.com",
+      "division": "Programs",
+      "platform": "WordPress + Genesis",
+      "pageBuilder": "Genesis",
+      "hubspot": true,
+      "hubspotPortal": "1646465",
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Apex Exchange",
+      "url": "apex-exchange.com",
+      "division": "Programs",
+      "platform": "Angular SPA",
+      "pageBuilder": "N/A",
+      "hubspot": false,
+      "ga4": false,
+      "oneTrust": true
+    },
+    {
+      "name": "Apex General",
+      "url": "apex-group.com",
+      "division": "Programs",
+      "platform": "WordPress + WPBakery",
+      "pageBuilder": "WPBakery",
+      "hubspot": true,
+      "hubspotPortal": "1646465",
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Protector Plans",
+      "url": "protector-plans.com",
+      "division": "Programs",
+      "platform": "WordPress + Divi",
+      "pageBuilder": "Divi",
+      "hubspot": false,
+      "ga4": false,
+      "oneTrust": true
+    },
+    {
+      "name": "Western Markets",
+      "url": "western-markets.com",
+      "division": "Programs",
+      "platform": "WordPress + WP Engine",
+      "pageBuilder": "WP Default",
+      "hubspot": false,
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Atlas Specialty",
+      "url": "atlas-specialty.com",
+      "division": "Atlas",
+      "platform": "WordPress + Genesis",
+      "pageBuilder": "Genesis",
+      "hubspot": false,
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Summit Brokers",
+      "url": "summit-brokers.com",
+      "division": "Atlas",
+      "platform": "WordPress + BeTheme",
+      "pageBuilder": "BeTheme",
+      "hubspot": false,
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Summit Brokerage",
+      "url": "summit-brokerage.com",
+      "division": "Atlas",
+      "platform": "WordPress + Custom",
+      "pageBuilder": "Custom",
+      "hubspot": false,
+      "ga4": true,
+      "oneTrust": true
+    },
+    {
+      "name": "Apex Wholesale",
+      "url": "apex-wholesale.com",
+      "division": "Wholesale",
+      "platform": "WordPress + WPBakery",
+      "pageBuilder": "WPBakery",
+      "hubspot": true,
+      "hubspotPortal": "20256628",
+      "ga4": true,
+      "oneTrust": false
+    },
+    {
+      "name": "Pacific Insurance Group",
+      "url": "pacific-insurance.com",
+      "division": "Wholesale",
+      "platform": "WordPress + WPBakery",
+      "pageBuilder": "WPBakery",
+      "hubspot": false,
+      "ga4": false,
+      "oneTrust": false
+    },
+    {
+      "name": "Apex Intermediaries",
+      "url": "apex-intermediaries.com",
+      "division": "Parent",
+      "platform": "WordPress + Elementor",
+      "pageBuilder": "Elementor Pro",
+      "hubspot": false,
+      "ga4": false,
+      "oneTrust": false
+    }
+  ],
+  "contentMetrics": [
+    {
+      "division": "Programs",
+      "published": 12,
+      "emailsSent": 8500,
+      "openRate": 24.3,
+      "clickRate": 3.1,
+      "socialPosts": 18
+    },
+    {
+      "division": "Atlas",
+      "published": 4,
+      "emailsSent": 3200,
+      "openRate": 19.8,
+      "clickRate": 2.4,
+      "socialPosts": 6
+    },
+    {
+      "division": "Wholesale",
+      "published": 9,
+      "emailsSent": 5100,
+      "openRate": 21.5,
+      "clickRate": 2.8,
+      "socialPosts": 11
+    }
+  ],
+  "websiteAudits": [
+    {
+      "name": "Apex Programs",
+      "url": "apex-programs.com",
+      "division": "Programs",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + Genesis",
+      "websiteQualityScore": 10,
+      "auditSummary": "Apex Programs scored 10/10 in website audit readiness. Mobile performance is 51/100 with LCP 14.0s. GA/GTM detected, HubSpot detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Apex Exchange",
+      "url": "apex-exchange.com",
+      "division": "Programs",
+      "hasWebsite": true,
+      "hasAnalytics": false,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": false,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "Angular SPA",
+      "websiteQualityScore": 7,
+      "auditSummary": "Apex Exchange scored 7/10 in website audit readiness. Mobile performance is 51/100 with LCP 19.0s. consent tooling detected. clear CTA present; contact form present; schema markup missing; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Apex General",
+      "url": "apex-group.com",
+      "division": "Programs",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + WPBakery",
+      "websiteQualityScore": 10,
+      "auditSummary": "Apex General scored 10/10 in website audit readiness. Mobile performance is 55/100 with LCP 14.2s. GA/GTM detected, HubSpot detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Protector Plans",
+      "url": "protector-plans.com",
+      "division": "Programs",
+      "hasWebsite": true,
+      "hasAnalytics": false,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + Divi",
+      "websiteQualityScore": 8,
+      "auditSummary": "Protector Plans scored 8/10 in website audit readiness. Mobile performance is 63/100 with LCP 8.9s. consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Western Markets",
+      "url": "western-markets.com",
+      "division": "Programs",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + WP Engine",
+      "websiteQualityScore": 9,
+      "auditSummary": "Western Markets scored 9/10 in website audit readiness. Mobile performance is 32/100 with LCP 21.8s. GA/GTM detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Atlas Specialty",
+      "url": "atlas-specialty.com",
+      "division": "Atlas",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + Genesis",
+      "websiteQualityScore": 10,
+      "auditSummary": "Atlas Specialty scored 10/10 in website audit readiness. Mobile performance is 62/100 with LCP 19.7s. GA/GTM detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Summit Brokers",
+      "url": "summit-brokers.com",
+      "division": "Atlas",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + BeTheme",
+      "websiteQualityScore": 10,
+      "auditSummary": "Summit Brokers scored 10/10 in website audit readiness. Mobile performance is 54/100 with LCP 16.1s. GA/GTM detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Summit Brokerage",
+      "url": "summit-brokerage.com",
+      "division": "Atlas",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + Custom",
+      "websiteQualityScore": 10,
+      "auditSummary": "Summit Brokerage scored 10/10 in website audit readiness. Mobile performance is 78/100 with LCP 4.8s. GA/GTM detected, consent tooling detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Apex Wholesale",
+      "url": "apex-wholesale.com",
+      "division": "Wholesale",
+      "hasWebsite": true,
+      "hasAnalytics": true,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + WPBakery",
+      "websiteQualityScore": 10,
+      "auditSummary": "Apex Wholesale scored 10/10 in website audit readiness. Mobile performance is 53/100 with LCP 23.6s. GA/GTM detected, HubSpot detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Pacific Insurance Group",
+      "url": "pacific-insurance.com",
+      "division": "Wholesale",
+      "hasWebsite": true,
+      "hasAnalytics": false,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + WPBakery",
+      "websiteQualityScore": 8,
+      "auditSummary": "Pacific Insurance Group scored 8/10 in website audit readiness. Mobile performance is 56/100 with LCP 21.3s. no clear marketing tracking detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    },
+    {
+      "name": "Apex Intermediaries",
+      "url": "apex-intermediaries.com",
+      "division": "Parent",
+      "hasWebsite": true,
+      "hasAnalytics": false,
+      "hasFacebookPixel": false,
+      "hasSchemaMarkup": true,
+      "hasContactForm": true,
+      "hasClearCta": true,
+      "hasPhoneVisible": true,
+      "hasSocialLinks": true,
+      "socialPlatforms": [
+        "LinkedIn"
+      ],
+      "websitePlatform": "WordPress + Elementor",
+      "websiteQualityScore": 8,
+      "auditSummary": "Apex Intermediaries scored 8/10 in website audit readiness. Mobile performance is 60/100 with LCP 9.3s. no clear marketing tracking detected. clear CTA present; contact form present; schema markup present; social links present.",
+      "usedAnthropicSummary": false,
+      "fetchSource": "seeded"
+    }
+  ]
+}

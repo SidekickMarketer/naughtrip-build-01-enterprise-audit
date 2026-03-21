@@ -1,0 +1,167 @@
+{
+  "apexprogramscom": {
+    "scores": {
+      "performance": 51,
+      "accessibility": 82,
+      "bestPractices": 57,
+      "seo": 92
+    },
+    "vitals": {
+      "lcp_ms": 14001,
+      "cls": 0.074,
+      "tbt_ms": 331
+    },
+    "url": "https://apex-programs.com",
+    "fetchTime": "2026-02-11T11:02:06.426Z"
+  },
+  "apexexchangecom": {
+    "scores": {
+      "performance": 51,
+      "accessibility": 75,
+      "bestPractices": 77,
+      "seo": 80
+    },
+    "vitals": {
+      "lcp_ms": 19026,
+      "cls": 0.072,
+      "tbt_ms": 273
+    },
+    "url": "https://apex-exchange.com",
+    "fetchTime": "2026-02-11T11:02:06.682Z"
+  },
+  "apexgroupcom": {
+    "scores": {
+      "performance": 55,
+      "accessibility": 88,
+      "bestPractices": 57,
+      "seo": 85
+    },
+    "vitals": {
+      "lcp_ms": 14231,
+      "cls": 0.071,
+      "tbt_ms": 101
+    },
+    "url": "https://apex-group.com",
+    "fetchTime": "2026-02-11T11:02:06.937Z"
+  },
+  "protectorplanscom": {
+    "scores": {
+      "performance": 63,
+      "accessibility": 88,
+      "bestPractices": 100,
+      "seo": 85
+    },
+    "vitals": {
+      "lcp_ms": 8918,
+      "cls": 0.072,
+      "tbt_ms": 26
+    },
+    "url": "https://protector-plans.com",
+    "fetchTime": "2026-02-11T11:02:07.190Z"
+  },
+  "westernmarketscom": {
+    "scores": {
+      "performance": 32,
+      "accessibility": 92,
+      "bestPractices": 57,
+      "seo": 92
+    },
+    "vitals": {
+      "lcp_ms": 21798,
+      "cls": 0.08,
+      "tbt_ms": 943
+    },
+    "url": "https://western-markets.com",
+    "fetchTime": "2026-02-11T11:02:07.444Z"
+  },
+  "atlasspecialtycom": {
+    "scores": {
+      "performance": 62,
+      "accessibility": 83,
+      "bestPractices": 77,
+      "seo": 85
+    },
+    "vitals": {
+      "lcp_ms": 19657,
+      "cls": 0.017,
+      "tbt_ms": 84
+    },
+    "url": "https://atlas-specialty.com",
+    "fetchTime": "2026-02-11T11:02:07.698Z"
+  },
+  "summitbrokerscom": {
+    "scores": {
+      "performance": 54,
+      "accessibility": 96,
+      "bestPractices": 69,
+      "seo": 92
+    },
+    "vitals": {
+      "lcp_ms": 16067,
+      "cls": 0.076,
+      "tbt_ms": 2
+    },
+    "url": "https://summit-brokers.com",
+    "fetchTime": "2026-02-11T11:02:07.953Z"
+  },
+  "summitbrokeragecom": {
+    "scores": {
+      "performance": 78,
+      "accessibility": 91,
+      "bestPractices": 92,
+      "seo": 57
+    },
+    "vitals": {
+      "lcp_ms": 4835,
+      "cls": 0.009,
+      "tbt_ms": 0
+    },
+    "url": "https://summit-brokerage.com",
+    "fetchTime": "2026-02-11T11:02:08.210Z"
+  },
+  "apexwholesalecom": {
+    "scores": {
+      "performance": 53,
+      "accessibility": 87,
+      "bestPractices": 73,
+      "seo": 92
+    },
+    "vitals": {
+      "lcp_ms": 23638,
+      "cls": 0.033,
+      "tbt_ms": 163
+    },
+    "url": "https://apex-wholesale.com",
+    "fetchTime": "2026-02-11T11:02:08.465Z"
+  },
+  "pacificinsurancecom": {
+    "scores": {
+      "performance": 56,
+      "accessibility": 91,
+      "bestPractices": 77,
+      "seo": 85
+    },
+    "vitals": {
+      "lcp_ms": 21313,
+      "cls": 0,
+      "tbt_ms": 68
+    },
+    "url": "https://pacific-insurance.com",
+    "fetchTime": "2026-02-11T11:02:08.721Z"
+  },
+  "apexintermediariescom": {
+    "scores": {
+      "performance": 60,
+      "accessibility": 93,
+      "bestPractices": 81,
+      "seo": 100
+    },
+    "vitals": {
+      "lcp_ms": 9274,
+      "cls": 0.022,
+      "tbt_ms": 325
+    },
+    "url": "https://apex-intermediaries.com",
+    "fetchTime": "2026-02-11T11:02:08.977Z"
+  }
+}

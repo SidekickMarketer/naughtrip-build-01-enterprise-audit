@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a9d8f"/>
+      <stop offset="100%" stop-color="#1b2a51"/>
+    </linearGradient>
+  </defs>
+  <polygon points="30,5 45,55 35,45 25,55 15,55 25,45 15,55 0,55" fill="url(#accent)"/>
+  <text x="55" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1b2a51" letter-spacing="2">APEX</text>
+  <text x="55" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400" fill="#666" letter-spacing="3">INTERMEDIARIES</text>
+</svg>
