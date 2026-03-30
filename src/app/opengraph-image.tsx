@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Digital Marketing & MarTech Vision for Apex Intermediaries | Kyle Naughtrip";
+export const alt = "Digital Infrastructure Audit | Kyle Naughtrip";
 export const size = {
   width: 1200,
   height: 630,
@@ -48,7 +48,7 @@ export default async function Image() {
               textTransform: "uppercase",
             }}
           >
-            Digital Marketing & MarTech Vision
+            Digital Infrastructure Audit
           </span>
         </div>
 
@@ -69,9 +69,9 @@ export default async function Image() {
               margin: 0,
             }}
           >
-            A Digital Marketing Vision for
+            Digital Infrastructure Audit
             <br />
-            Apex Intermediaries
+            Multi-Brand Insurance Organization
           </h1>
           <p
             style={{

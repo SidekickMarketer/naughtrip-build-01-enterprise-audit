@@ -5,13 +5,11 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const nav = [
-  { href: "/", label: "Home" },
-  { href: "/roadmap", label: "Roadmap" },
   { href: "/platform-health", label: "Platform Health" },
   { href: "/platform-strategy", label: "Platform Strategy" },
+  { href: "/roadmap", label: "Roadmap" },
   { href: "/tool", label: "Content Engine" },
   { href: "/beyond-portals", label: "Beyond Portals" },
-  { href: "/about", label: "Why Kyle" },
 ];
 
 export default function Navigation() {
@@ -45,7 +43,7 @@ export default function Navigation() {
               </span>
               <div className="leading-tight">
                 <div className="text-sm font-semibold text-[color:var(--navy)]">Kyle Naughtrip</div>
-                <div className="text-xs font-medium text-[color:var(--teal)]">Digital Marketing & MarTech</div>
+                <div className="text-xs font-medium text-[color:var(--teal)]">Digital Infrastructure Audit</div>
               </div>
             </Link>
 
@@ -69,17 +67,7 @@ export default function Navigation() {
               })}
             </nav>
 
-            <div className="hidden sm:flex items-center gap-3">
-              <Link
-                href="/roadmap"
-                className="inline-flex items-center gap-2 rounded-full bg-[color:var(--navy)] px-5 py-2.5 text-sm font-semibold text-white shadow-[var(--shadow-soft)] transition-all hover:shadow-[var(--shadow)] hover:-translate-y-0.5"
-              >
-                <span>See the Plan</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-            </div>
+            <div className="hidden sm:flex items-center gap-3" />
 
             {/* Mobile menu button */}
             <button

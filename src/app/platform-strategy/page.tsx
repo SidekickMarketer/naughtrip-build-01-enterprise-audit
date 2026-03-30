@@ -986,7 +986,7 @@ export default function PlatformStrategyPage() {
               <div className="flex items-center gap-2 mb-6">
                 <span className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-[color:var(--teal)] text-white text-[10px] font-bold">3</span>
                 <span className="text-xs font-bold tracking-widest uppercase text-[color:var(--teal)]">MarTech Execution</span>
-                <span className="ml-auto text-[10px] text-[color:var(--muted)] uppercase tracking-wider font-semibold">VP Digital Marketing Domain</span>
+                <span className="ml-auto text-[10px] text-[color:var(--muted)] uppercase tracking-wider font-semibold">Marketing Leadership Domain</span>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
                 {["Unified CMS", "Unified GA4", "Email Marketing", "Social Management", "Content/DAM", "SEO/AEO Tools"].map((item) => (

@@ -24,11 +24,11 @@ export default function Footer() {
               </span>
               <div>
                 <div className="font-semibold text-[color:var(--navy)]">Kyle Naughtrip</div>
-                <div className="text-sm text-[color:var(--teal)]">Digital Marketing & MarTech</div>
+                <div className="text-sm text-[color:var(--teal)]">Digital Infrastructure Audit</div>
               </div>
             </div>
             <p className="mt-4 text-sm text-[color:var(--muted)] max-w-sm leading-relaxed">
-              A digital marketing and MarTech vision for Apex Intermediaries. strategic roadmap, platform health, and content systems.
+              An outside-in digital audit of a multi-brand insurance organization. Platform health, consolidation strategy, content engine, and AI agent prototype.
             </p>
           </div>
 
@@ -36,13 +36,11 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <div className="text-xs font-semibold uppercase tracking-wider text-[color:var(--muted)] mb-4">Navigation</div>
             <nav className="space-y-3">
-              <Link href="/" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Home</Link>
-              <Link href="/roadmap" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Roadmap</Link>
               <Link href="/platform-health" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Platform Health</Link>
               <Link href="/platform-strategy" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Platform Strategy</Link>
+              <Link href="/roadmap" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Roadmap</Link>
               <Link href="/tool" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Content Engine</Link>
               <Link href="/beyond-portals" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Beyond Portals</Link>
-              <Link href="/about" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Why Kyle</Link>
               <Link href="/appendix" className="block text-sm text-[color:var(--navy)] hover:text-[color:var(--teal)] transition-colors">Sources & Citations</Link>
             </nav>
           </div>

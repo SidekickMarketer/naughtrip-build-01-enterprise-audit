@@ -292,7 +292,7 @@ export default function AppendixPage() {
                 title="Marketing automation: 3/11 Apex Intermediaries properties"
                 publisher="Apex Intermediaries Marketing Stack Analysis + Marketing Technology Report 2026"
                 year="2026"
-                description="HubSpot is detected on 3 of 11 Apex Intermediaries web properties across 2 separate portal IDs. HubSpot holds 29.4% of the B2B marketing automation market. The JD names Dynamics 365, Power BI, GA4, and App Insights as the enterprise standard. The incoming VP evaluates the marketing automation path."
+                description="HubSpot is detected on 3 of 11 Apex Intermediaries web properties across 2 separate portal IDs. HubSpot holds 29.4% of the B2B marketing automation market. Dynamics 365, Power BI, GA4, and App Insights appear to be the enterprise standard. The marketing automation path is an open decision."
               />
               <SourceCard
                 index={1}

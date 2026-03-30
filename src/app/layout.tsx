@@ -8,24 +8,24 @@ import LayoutShell from "@/components/LayoutShell";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "VP, Digital Marketing & MarTech Vision for Apex Intermediaries | Kyle Naughtrip",
-  description: "A digital marketing and MarTech vision for Apex Intermediaries. strategic roadmap, platform health dashboard, and content engine.",
-  metadataBase: new URL("https://enterprise-audit-demo.vercel.app"),
+  title: "Digital Infrastructure Audit | Kyle Naughtrip",
+  description: "Platform health dashboard, consolidation strategy, content engine, and AI agent prototype for a multi-brand insurance organization.",
+  metadataBase: new URL("https://naughtrip-build-01-enterprise-audit.vercel.app"),
   robots: {
     index: false,
     follow: false,
   },
   openGraph: {
-    title: "Digital Marketing & MarTech Vision for Apex Intermediaries",
-    description: "A digital marketing and MarTech vision for Apex Intermediaries. strategic roadmap, platform health dashboard, and content engine.",
-    siteName: "Kyle Naughtrip | Digital Marketing & MarTech",
+    title: "Digital Infrastructure Audit | Kyle Naughtrip",
+    description: "Platform health dashboard, consolidation strategy, content engine, and AI agent prototype for a multi-brand insurance organization.",
+    siteName: "Kyle Naughtrip",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing & MarTech Vision for Apex Intermediaries",
-    description: "A digital marketing and MarTech vision for Apex Intermediaries. strategic roadmap, platform health dashboard, and content engine.",
+    title: "Digital Infrastructure Audit | Kyle Naughtrip",
+    description: "Platform health dashboard, consolidation strategy, content engine, and AI agent prototype for a multi-brand insurance organization.",
   },
 };
 
