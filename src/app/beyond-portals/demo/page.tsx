@@ -738,8 +738,12 @@ export default function BeyondPortalsDemoPage() {
       {sidebarOpen && (
         <aside className="w-64 flex-shrink-0 flex flex-col border-r" style={{ backgroundColor: B.surface, borderColor: B.border }}>
           {/* Logo */}
-          <div className="p-4 border-b" style={{ borderColor: B.border }}>
-            <img src="/apex-logo.svg" alt="Apex Intermediaries" className="h-9" />
+          <div className="p-4 border-b flex items-center gap-2.5" style={{ borderColor: B.border }}>
+            <ApexMark className="w-7 h-7" />
+            <div className="leading-tight">
+              <div className="text-sm font-bold tracking-wide" style={{ color: B.navy }}>APEX</div>
+              <div className="text-[9px] font-medium tracking-[0.15em] uppercase" style={{ color: B.muted }}>Intermediaries</div>
+            </div>
           </div>
 
           {/* New Inquiry */}
