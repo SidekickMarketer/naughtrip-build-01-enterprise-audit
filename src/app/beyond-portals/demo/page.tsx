@@ -23,9 +23,9 @@ const B = {
 
 /* ─── Icons ─── */
 const ApexMark = ({ className }: { className?: string }) => (
-  <svg viewBox="0 0 94 91" className={className || "w-5 h-5"} fill="none">
-    <polygon fill="#1b2a51" points="46.84 30.16 33.48 67.71 41.17 77.11 41.17 90.88 0 90.88 35.03 0 46.84 0 58.66 0 46.84 30.16" />
-    <polygon fill="#9b9889" points="52.51 90.88 93.68 90.88 58.65 0 58.65 0 58.65 0 46.84 0 46.84 0 35.03 0 35.02 0 46.84 30.16 60.2 67.71 52.51 77.11 52.51 90.88" />
+  <svg viewBox="0 0 40 44" className={className || "w-5 h-5"} fill="none">
+    <path d="M20 0L38 8V22C38 33.046 30.046 42 20 44C9.954 42 2 33.046 2 22V8L20 0Z" fill="#1b2a51" />
+    <text x="20" y="29" textAnchor="middle" fill="white" fontSize="22" fontWeight="700" fontFamily="system-ui, sans-serif">A</text>
   </svg>
 );
 
